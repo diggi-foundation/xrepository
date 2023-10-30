@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/diggi.foundation/xrepository/models"
+	"github.com/diggi-foundation/xrepository/models"
 )
 
 // NewUpdateStatus2Params creates a new UpdateStatus2Params object,

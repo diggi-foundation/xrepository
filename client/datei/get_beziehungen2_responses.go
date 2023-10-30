@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/diggi.foundation/xrepository/models"
+	"github.com/diggi-foundation/xrepository/models"
 )
 
 // GetBeziehungen2Reader is a Reader for the GetBeziehungen2 structure.

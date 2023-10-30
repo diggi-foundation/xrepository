@@ -10,17 +10,17 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/diggi.foundation/xrepository/client/administration"
-	"github.com/diggi.foundation/xrepository/client/codeliste"
-	"github.com/diggi.foundation/xrepository/client/datei"
-	"github.com/diggi.foundation/xrepository/client/g_ui"
-	"github.com/diggi.foundation/xrepository/client/interop_matrix"
-	"github.com/diggi.foundation/xrepository/client/nutzer"
-	"github.com/diggi.foundation/xrepository/client/profil"
-	"github.com/diggi.foundation/xrepository/client/redaktion"
-	"github.com/diggi.foundation/xrepository/client/standard"
-	"github.com/diggi.foundation/xrepository/client/version_codeliste"
-	"github.com/diggi.foundation/xrepository/client/version_standard"
+	"github.com/diggi-foundation/xrepository/client/administration"
+	"github.com/diggi-foundation/xrepository/client/codeliste"
+	"github.com/diggi-foundation/xrepository/client/datei"
+	"github.com/diggi-foundation/xrepository/client/g_ui"
+	"github.com/diggi-foundation/xrepository/client/interop_matrix"
+	"github.com/diggi-foundation/xrepository/client/nutzer"
+	"github.com/diggi-foundation/xrepository/client/profil"
+	"github.com/diggi-foundation/xrepository/client/redaktion"
+	"github.com/diggi-foundation/xrepository/client/standard"
+	"github.com/diggi-foundation/xrepository/client/version_codeliste"
+	"github.com/diggi-foundation/xrepository/client/version_standard"
 )
 
 // Default xrepository HTTP client.
