@@ -21,7 +21,6 @@ import (
 	"github.com/diggi.foundation/xrepository/client/standard"
 	"github.com/diggi.foundation/xrepository/client/version_codeliste"
 	"github.com/diggi.foundation/xrepository/client/version_standard"
-	"github.com/diggi.foundation/xrepository/client/x_ö_v_bibliothek"
 )
 
 // Default xrepository HTTP client.
@@ -77,7 +76,6 @@ func New(transport runtime.ClientTransport, formats strfmt.Registry) *Xrepositor
 	cli.Standard = standard.New(transport, formats)
 	cli.VersionCodeliste = version_codeliste.New(transport, formats)
 	cli.VersionStandard = version_standard.New(transport, formats)
-	cli.XÖvBibliothek = x_ö_v_bibliothek.New(transport, formats)
 	return cli
 }
 
@@ -144,8 +142,6 @@ type Xrepository struct {
 
 	VersionStandard version_standard.ClientService
 
-	XÖvBibliothek x_ö_v_bibliothek.ClientService
-
 	Transport runtime.ClientTransport
 }
 
@@ -163,5 +159,4 @@ func (c *Xrepository) SetTransport(transport runtime.ClientTransport) {
 	c.Standard.SetTransport(transport)
 	c.VersionCodeliste.SetTransport(transport)
 	c.VersionStandard.SetTransport(transport)
-	c.XÖvBibliothek.SetTransport(transport)
 }

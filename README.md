@@ -23,3 +23,4 @@ can not use oapi-codegen as swagger is 2.0 instead of 3.0 see: https://github.co
 - [ ] replace xrep-wildfly02.init.de/192.168.212.84 with www.xrepository.de/api
 - [ ] publishes itself via Github Actions
 - [ ] semantic release
+- [ ] fix error with x_ö_v_bibliothek 
