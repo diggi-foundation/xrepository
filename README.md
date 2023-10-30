@@ -10,17 +10,23 @@ Not published yet.
 * go-swagger
 
 ## Installation
-`git clone `
-`cd xrepsoitory`
-`make pull`
+* `git clone git@github.com:diggi-foundation/xrepository.git`
+* `cd xrepsoitory`
+* `make pull`
+
+## Serve UI
+* `make serve`
+
+## Generate Client
+* `make generate`
 
 ## Limitations
-can not use oapi-codegen as swagger is 2.0 instead of 3.0 see: https://github.com/deepmap/oapi-codegen/issues/222
+This repository just downloads the openapi spec from https://www.xrepository.de/api/swagger and generates the respective clients. The downloaded spec is written in swagger 2.0 and has several documentation as well as validation issues.
 
 ## Features
 - [x] downloads openapi spec via command
-- [ ] generate client
-- [ ] replace xrep-wildfly02.init.de/192.168.212.84 with www.xrepository.de/api
+- [x] generates go client
+- [ ] replaces xrep-wildfly02.init.de/192.168.212.84 with www.xrepository.de/api
 - [ ] publishes itself via Github Actions
-- [ ] semantic release
-- [ ] fix error with x_ö_v_bibliothek 
+- [ ] uses semantic release
+- [ ] fixes error with x_ö_v_bibliothek 
