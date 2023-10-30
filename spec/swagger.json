@@ -2289,63 +2289,6 @@
                 }
             }
         },
-        "/xoev_bibliothek/hochladen": {
-            "post": {
-                "tags": [
-                    "XÖV-Bibliothek"
-                ],
-                "operationId": "addVersionXoevBibliothek",
-                "consumes": [
-                    "multipart/form-data"
-                ],
-                "produces": [
-                    "application/xml",
-                    "application/json"
-                ],
-                "parameters": [
-                    {
-                        "name": "files",
-                        "in": "formData",
-                        "description": ".uml Dateien mit der XÖV-Bibliothek",
-                        "required": true,
-                        "type": "file"
-                    }
-                ],
-                "responses": {
-                    "default": {
-                        "description": "successful operation"
-                    }
-                }
-            }
-        },
-        "/xoev_bibliothek/freigeben": {
-            "post": {
-                "tags": [
-                    "XÖV-Bibliothek"
-                ],
-                "operationId": "xoevFreigeben",
-                "parameters": [],
-                "responses": {
-                    "default": {
-                        "description": "successful operation"
-                    }
-                }
-            }
-        },
-        "/xoev_bibliothek": {
-            "get": {
-                "tags": [
-                    "XÖV-Bibliothek"
-                ],
-                "operationId": "getAll",
-                "parameters": [],
-                "responses": {
-                    "default": {
-                        "description": "successful operation"
-                    }
-                }
-            }
-        },
         "/nutzer/{kennung}/token/{name}": {
             "put": {
                 "tags": [
