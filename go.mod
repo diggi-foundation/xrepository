@@ -1,4 +1,4 @@
-module github.com/diggi.foundation/xrepository
+module github.com/diggi-foundation/xrepository
 
 go 1.20
 
